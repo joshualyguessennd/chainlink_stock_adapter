@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chainlink-adapter"
+version = "0.1.0"
+description = ""
+authors = ["joshualyguessennd <joshualyguessennd@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+flask = "^3.0.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
