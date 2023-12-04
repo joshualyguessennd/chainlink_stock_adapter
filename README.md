@@ -81,6 +81,12 @@ Configure your Chainlink node to use the external adapter for jobs that require 
 
 Test the external adapter and Stock API independently using tools like Postman or cURL.
 
+```
+curl -X POST -H "Content-Type: application/json" \
+     "http://localhost:8080/" \
+     --data '{ "id": 0, "data": { "endpoint": "stock", "symbol": "GOOGL" } }'
+```
+
 ## Contribution
 
 Contributions to this project are welcome. Please submit issues or pull requests on GitHub.
