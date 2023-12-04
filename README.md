@@ -84,7 +84,3 @@ Test the external adapter and Stock API independently using tools like Postman o
 ## Contribution
 
 Contributions to this project are welcome. Please submit issues or pull requests on GitHub.
-
----
-
-This README provides detailed instructions for setting up both the external adapter and the stock API, including the necessary commands and environment setup. Ensure to replace `[repository-url]` with the URL of your actual repository.
